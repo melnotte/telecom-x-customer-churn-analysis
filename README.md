@@ -45,14 +45,15 @@ The heatmap confirms that `Tenure` is negatively correlated with Churn (longer s
 
 ## 📂 Project Structure & Workflow
 
-1.  **Data Cleaning:** * Flattened complex JSON structures.
+1.  **Data Cleaning:**
+    * Flattened complex JSON structures.
     * Converted `TotalCharges` to numeric and handled missing values.
     * Mapped categorical variables for better visualization.
-2.  **Exploratory Data Analysis (EDA):**
+3.  **Exploratory Data Analysis (EDA):**
     * Distribution analysis of Churn vs. Non-Churn.
     * Categorical analysis (Gender, Seniority, Partner, Dependents).
     * Service analysis (Phone, Multiple Lines, Internet, Tech Support).
-3.  **Visualizations:**
+4.  **Visualizations:**
     * Used Seaborn `countplot` for categorical drivers.
     * Used `kdeplot` and `histplot` to analyze numerical distributions of charges and tenure.
 
